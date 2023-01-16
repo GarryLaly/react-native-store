@@ -1,8 +1,8 @@
 'use strict';
 
-var AsyncStorage = require('react-native').AsyncStorage;
-var Model = require('./model.js');
-var Util = require('./util.js');
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import Model from './model.js';
+import Util from './util.js';
 
 class Store {
 
